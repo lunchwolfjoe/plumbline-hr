@@ -152,6 +152,45 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Case Studies Preview */}
+      <section className="py-20 bg-black">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto text-center">
+            <h2 className="text-5xl md:text-6xl font-black mb-8">
+              THE <span className="text-red-500">BODY COUNT</span>
+            </h2>
+            <p className="text-xl text-gray-300 mb-12 max-w-3xl mx-auto">
+              These aren't case studies. These are war stories of how I destroyed inefficiency and built empires.
+            </p>
+            
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+              <div className="bg-gray-900 p-6 rounded-lg border border-gray-800">
+                <div className="text-red-500 text-3xl mb-4">💰</div>
+                <div className="text-2xl font-bold text-white mb-2">$100M+</div>
+                <div className="text-gray-400 mb-4">Cost Optimization</div>
+                <div className="text-sm text-gray-500">Redesigned cost structures across Fortune 500 enterprises</div>
+              </div>
+              <div className="bg-gray-900 p-6 rounded-lg border border-gray-800">
+                <div className="text-red-500 text-3xl mb-4">🚀</div>
+                <div className="text-2xl font-bold text-white mb-2">Amazon Standard</div>
+                <div className="text-gray-400 mb-4">Central Dock Innovation</div>
+                <div className="text-sm text-gray-500">Revolutionary logistics system became network standard</div>
+              </div>
+              <div className="bg-gray-900 p-6 rounded-lg border border-gray-800">
+                <div className="text-red-500 text-3xl mb-4">🏆</div>
+                <div className="text-2xl font-bold text-white mb-2">Principal Level</div>
+                <div className="text-gray-400 mb-4">Amazon Ascent</div>
+                <div className="text-sm text-gray-500">Rapid rise to principal-level transformation leader</div>
+              </div>
+            </div>
+            
+            <a href="/case-studies" className="inline-block border-2 border-red-500 text-red-500 hover:bg-red-500 hover:text-white px-12 py-4 rounded-lg text-xl font-bold transition-all duration-300">
+              SEE ALL WAR STORIES
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Who I Work With */}
       <section className="py-20 bg-black">
         <div className="container mx-auto px-4">

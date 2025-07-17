@@ -39,6 +39,9 @@ export default function RootLayout({
                   <a href="/services" className="text-gray-300 hover:text-red-500 transition-colors font-semibold">
                     ENTERPRISE WEAPONS
                   </a>
+                  <a href="/case-studies" className="text-gray-300 hover:text-red-500 transition-colors font-semibold">
+                    WAR STORIES
+                  </a>
                   <a href="/about" className="text-gray-300 hover:text-red-500 transition-colors font-semibold">
                     THE PREDATOR
                   </a>
@@ -104,6 +107,11 @@ export default function RootLayout({
                     <li>
                       <a href="/services" className="text-gray-300 hover:text-red-500 transition-colors">
                         Financial Dominance
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/case-studies" className="text-gray-300 hover:text-red-500 transition-colors">
+                        War Stories
                       </a>
                     </li>
                   </ul>
