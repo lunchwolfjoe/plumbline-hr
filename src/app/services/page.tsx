@@ -53,28 +53,28 @@ export default function Services() {
                 <div className="text-red-500 text-6xl mb-6">⚡</div>
                 <h3 className="text-3xl font-black mb-4">OPERATIONAL WARFARE</h3>
                 <p className="text-gray-300 mb-8 text-lg">
-                  I don't just identify problems. I declare war on inefficiency and build systems that dominate your competition.
+                  I don't just find problems. I declare war on waste and build systems that crush your competition.
                 </p>
                 <div className="space-y-4 mb-8">
                   <div className="flex items-start">
                     <span className="text-red-500 mr-3 text-xl">•</span>
                     <div>
                       <h4 className="font-bold text-white mb-1">Supply Chain Domination</h4>
-                      <p className="text-gray-400">Redesign entire supply chains for maximum efficiency and competitive advantage</p>
+                      <p className="text-gray-400">Redesign supply chains for max efficiency and competitive edge</p>
                     </div>
                   </div>
                   <div className="flex items-start">
                     <span className="text-red-500 mr-3 text-xl">•</span>
                     <div>
                       <h4 className="font-bold text-white mb-1">Process Reengineering</h4>
-                      <p className="text-gray-400">Complete operational overhauls that eliminate waste and maximize output</p>
+                      <p className="text-gray-400">Complete operational overhauls that kill waste and boost output</p>
                     </div>
                   </div>
                   <div className="flex items-start">
                     <span className="text-red-500 mr-3 text-xl">•</span>
                     <div>
                       <h4 className="font-bold text-white mb-1">Cost Structure Overhaul</h4>
-                      <p className="text-gray-400">Redesign financial models to generate exponential returns</p>
+                      <p className="text-gray-400">Redesign financial models for exponential returns</p>
                     </div>
                   </div>
                 </div>
@@ -89,28 +89,28 @@ export default function Services() {
                 <div className="text-red-500 text-6xl mb-6">🎯</div>
                 <h3 className="text-3xl font-black mb-4">SYSTEMS INNOVATION</h3>
                 <p className="text-gray-300 mb-8 text-lg">
-                  I build technology and process architectures that don't just work—they create unfair competitive advantages.
+                  I build tech and process systems that don't just work—they create unfair competitive edges.
                 </p>
                 <div className="space-y-4 mb-8">
                   <div className="flex items-start">
                     <span className="text-red-500 mr-3 text-xl">•</span>
                     <div>
                       <h4 className="font-bold text-white mb-1">Digital Transformation</h4>
-                      <p className="text-gray-400">Complete technology overhauls that revolutionize operations</p>
+                      <p className="text-gray-400">Complete tech overhauls that revolutionize operations</p>
                     </div>
                   </div>
                   <div className="flex items-start">
                     <span className="text-red-500 mr-3 text-xl">•</span>
                     <div>
                       <h4 className="font-bold text-white mb-1">Automation Strategy</h4>
-                      <p className="text-gray-400">Build systems that eliminate human error and maximize efficiency</p>
+                      <p className="text-gray-400">Build systems that kill human error and max efficiency</p>
                     </div>
                   </div>
                   <div className="flex items-start">
                     <span className="text-red-500 mr-3 text-xl">•</span>
                     <div>
                       <h4 className="font-bold text-white mb-1">Data-Driven Operations</h4>
-                      <p className="text-gray-400">Create intelligence systems that make decisions faster than competitors</p>
+                      <p className="text-gray-400">Create smart systems that decide faster than competitors</p>
                     </div>
                   </div>
                 </div>
@@ -125,28 +125,28 @@ export default function Services() {
                 <div className="text-red-500 text-6xl mb-6">🤖</div>
                 <h3 className="text-3xl font-black mb-4">AI TRANSFORMATION</h3>
                 <p className="text-gray-300 mb-8 text-lg">
-                  I design agentic AI transformation plans that don't just automate—they create intelligent systems that think and act autonomously.
+                  I design AI transformation plans that don't just automate—they create smart systems that think and act on their own.
                 </p>
                 <div className="space-y-4 mb-8">
                   <div className="flex items-start">
                     <span className="text-red-500 mr-3 text-xl">•</span>
                     <div>
                       <h4 className="font-bold text-white mb-1">Agentic AI Strategy</h4>
-                      <p className="text-gray-400">Design AI systems that make autonomous decisions and take action</p>
+                      <p className="text-gray-400">Design AI systems that make decisions and take action</p>
                     </div>
                   </div>
                   <div className="flex items-start">
                     <span className="text-red-500 mr-3 text-xl">•</span>
                     <div>
                       <h4 className="font-bold text-white mb-1">Autonomous Systems</h4>
-                      <p className="text-gray-400">Build AI-powered operations that run independently and optimize themselves</p>
+                      <p className="text-gray-400">Build AI-powered ops that run on their own and optimize themselves</p>
                     </div>
                   </div>
                   <div className="flex items-start">
                     <span className="text-red-500 mr-3 text-xl">•</span>
                     <div>
                       <h4 className="font-bold text-white mb-1">AI-Powered Intelligence</h4>
-                      <p className="text-gray-400">Create systems that learn, adapt, and outperform human decision-making</p>
+                      <p className="text-gray-400">Create systems that learn, adapt, and beat human decisions</p>
                     </div>
                   </div>
                 </div>
@@ -161,28 +161,28 @@ export default function Services() {
                 <div className="text-red-500 text-6xl mb-6">💰</div>
                 <h3 className="text-3xl font-black mb-4">FINANCIAL DOMINANCE</h3>
                 <p className="text-gray-300 mb-8 text-lg">
-                  I don't save you money. I redesign your entire financial model to generate exponential returns.
+                  I don't save you money. I redesign your financial model for exponential returns.
                 </p>
                 <div className="space-y-4 mb-8">
                   <div className="flex items-start">
                     <span className="text-red-500 mr-3 text-xl">•</span>
                     <div>
                       <h4 className="font-bold text-white mb-1">Cost Optimization</h4>
-                      <p className="text-gray-400">Identify and eliminate waste across entire organizations</p>
+                      <p className="text-gray-400">Find and kill waste across entire organizations</p>
                     </div>
                   </div>
                   <div className="flex items-start">
                     <span className="text-red-500 mr-3 text-xl">•</span>
                     <div>
                       <h4 className="font-bold text-white mb-1">Revenue Enhancement</h4>
-                      <p className="text-gray-400">Redesign business models to capture new revenue streams</p>
+                      <p className="text-gray-400">Redesign business models to capture new revenue</p>
                     </div>
                   </div>
                   <div className="flex items-start">
                     <span className="text-red-500 mr-3 text-xl">•</span>
                     <div>
                       <h4 className="font-bold text-white mb-1">Investment Strategy</h4>
-                      <p className="text-gray-400">Optimize capital allocation for maximum returns</p>
+                      <p className="text-gray-400">Optimize capital allocation for max returns</p>
                     </div>
                   </div>
                 </div>

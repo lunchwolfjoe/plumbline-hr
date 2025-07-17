@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'PlumbLineHR - Enterprise Transformation & AI Strategy',
   description: 'Military veteran and Amazon principal delivering enterprise transformations and AI strategy that generate hundreds of millions in value.',
+  icons: {
+    icon: '/favicon.ico',
+  },
 }
 
 export default function RootLayout({
@@ -18,6 +21,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+      </head>
       <body className={`${inter.className} bg-black text-white`}>
         <ClientAuthProvider>
           <header className="bg-black border-b border-gray-800">

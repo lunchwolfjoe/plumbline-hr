@@ -192,11 +192,35 @@ html {
   word-wrap: break-word;
   overflow-wrap: break-word;
   hyphens: auto;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
 }
 
 .transformation-card h3 {
   word-break: break-word;
   line-height: 1.2;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.transformation-card p {
+  flex-grow: 1;
+  line-height: 1.6;
+}
+
+.transformation-card .space-y-4 {
+  flex-grow: 1;
+}
+
+.transformation-card h4 {
+  font-size: 1rem;
+  line-height: 1.3;
+}
+
+.transformation-card .text-gray-400 {
+  font-size: 0.9rem;
+  line-height: 1.4;
 }
 
 .transformation-card p {
