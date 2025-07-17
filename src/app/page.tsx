@@ -12,249 +12,243 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen bg-black text-white">
       <ScrollReveal />
       
-      {/* Hero Section with Parallax */}
+      {/* Hero Section - Badass Military/Amazon Positioning */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hero-office.jpg"
-            alt="Modern office environment"
+            src="/images/nick-forest.jpg"
+            alt="Nick Plumb - Military Veteran & Amazon Principal"
             fill
             className="object-cover"
             priority
           />
-          <div className="absolute inset-0 bg-black/60" />
+          <div className="absolute inset-0 bg-black/70" />
         </div>
+        
         <div className="container mx-auto px-4 relative z-10">
-          <div className={`max-w-5xl mx-auto text-center transform transition-all duration-1000 ${isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
-            <h1 className="text-6xl md:text-7xl font-bold mb-6 text-white gradient-text">
-              I Don't Just Solve Problems - I Redesign Systems That Create Value
+          <div className="max-w-6xl mx-auto text-center">
+            {/* Badge */}
+            <div className="inline-block bg-red-600 text-white px-6 py-2 rounded-full text-sm font-bold mb-8 tracking-wider">
+              MILITARY VETERAN • AMAZON PRINCIPAL • ENTERPRISE TRANSFORMER
+            </div>
+            
+            {/* Main Headline */}
+            <h1 className="text-6xl md:text-8xl font-black mb-8 leading-tight">
+              <span className="text-red-500">BREAK</span> THE SYSTEM
+              <br />
+              <span className="text-gray-300">BUILD THE FUTURE</span>
             </h1>
-            <p className="text-xl md:text-2xl mb-4 text-white/90 font-semibold">
-              Military Veteran • Amazon Principal • Ops Problem Solver Extraordinaire
+            
+            {/* Subheadline */}
+            <p className="text-2xl md:text-3xl font-light mb-12 max-w-4xl mx-auto leading-relaxed">
+              I don't optimize your operations. I <span className="text-red-500 font-bold">REDESIGN YOUR ENTIRE BUSINESS MODEL</span> to generate hundreds of millions in new value.
             </p>
-            <p className="text-lg mb-8 text-white/80 max-w-3xl mx-auto">
-              From $100M+ cost optimizations to network-wide innovations that become industry standards - I fix any ops problem.
-            </p>
-            <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <a
-                href="/contact"
-                className="glass hover-lift px-8 py-4 rounded-md font-semibold text-white text-lg"
-              >
-                Schedule Your Strategic Assessment <span className="ml-2">→</span>
-              </a>
-              <a
-                href="/services"
-                className="bg-white hover-lift px-8 py-4 rounded-md font-semibold text-gray-900 text-lg"
-              >
-                See My Arsenal
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-float">
-          <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-          </svg>
-        </div>
-      </section>
-
-      {/* Value Proposition Section */}
-      <section className="py-20 bg-gray-900 text-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-4xl md:text-5xl font-bold mb-8">
-              When Your Ops Are Broken, I'm The Fixer You Call
-            </h2>
-            <p className="text-xl mb-12 text-gray-300">
-              As the force behind PlumbLineHR, I bring battle-tested strategies from military operations and Amazon's high-stakes environment to crush your operational challenges and unlock massive value.
-            </p>
-            <div className="relative w-64 h-64 mx-auto mb-8">
-              <Image
-                src="/images/ceo.jpg"
-                alt="Nick Plumb in action"
-                fill
-                className="object-cover rounded-full"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Track Record Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold mb-12 text-center reveal">
-            My Battle-Proven Track Record
-          </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 stagger-children">
-            {[
-              {
-                number: '$100M+',
-                description: 'Annual cost reduction opportunities identified and validated',
-                icon: '💰'
-              },
-              {
-                number: '$9.3B',
-                description: 'Operational spend analyzed and optimized',
-                icon: '📊'
-              },
-              {
-                number: 'Network-Wide',
-                description: 'System transformations that became industry standards',
-                icon: '🌐'
-              },
-              {
-                number: 'Multiple',
-                description: 'Innovations created that scaled across entire organizations',
-                icon: '💡'
-              }
-            ].map((stat, index) => (
-              <div key={index} className="bg-white p-8 rounded-lg shadow-lg card-hover animate-slide-up text-center">
-                <div className="text-4xl mb-4">{stat.icon}</div>
-                <h3 className="text-3xl font-bold mb-4 text-primary">{stat.number}</h3>
-                <p className="text-gray-600">{stat.description}</p>
+            
+            {/* Stats Bar */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+              <div className="bg-black/50 backdrop-blur-sm p-6 rounded-lg border border-gray-800">
+                <div className="text-4xl font-black text-red-500 mb-2">$100M+</div>
+                <div className="text-gray-300">Cost Reduction Delivered</div>
               </div>
-            ))}
+              <div className="bg-black/50 backdrop-blur-sm p-6 rounded-lg border border-gray-800">
+                <div className="text-4xl font-black text-red-500 mb-2">$9.3B</div>
+                <div className="text-gray-300">Operational Spend Analyzed</div>
+              </div>
+              <div className="bg-black/50 backdrop-blur-sm p-6 rounded-lg border border-gray-800">
+                <div className="text-4xl font-black text-red-500 mb-2">0</div>
+                <div className="text-gray-300">Failed Transformations</div>
+              </div>
+            </div>
+            
+            {/* CTA Buttons */}
+            <div className="flex flex-col sm:flex-row gap-6 justify-center">
+              <button className="bg-red-600 hover:bg-red-700 text-white px-12 py-4 rounded-lg text-xl font-bold transition-all duration-300 transform hover:scale-105">
+                BOOK ENTERPRISE CONSULTATION
+              </button>
+              <button className="border-2 border-white hover:bg-white hover:text-black text-white px-12 py-4 rounded-lg text-xl font-bold transition-all duration-300">
+                VIEW TRANSFORMATION PORTFOLIO
+              </button>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Triple Threat Arsenal */}
-      <section className="py-20 bg-white">
+      {/* What I Do Section */}
+      <section className="py-20 bg-gray-900">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold mb-8 text-center reveal">
-            My Triple-Threat Arsenal
-          </h2>
-          <p className="text-xl mb-12 text-center text-gray-600 max-w-3xl mx-auto">
-            Most consultants have one trick. I've got three locked and loaded - forged in military ops and Amazon's war rooms.
-          </p>
-          <div className="grid md:grid-cols-3 gap-8 stagger-children">
-            {[
-              {
-                title: 'Operational Excellence',
-                subtitle: 'Making things work better under fire',
-                image: '/images/analytics.jpg',
-                achievements: [
-                  'Led 3 complex Amazon launches with best-in-class results',
-                  'Developed 6+ leaders to senior management roles',
-                  'Created training programs delivering 40%+ improvements',
-                  'Managed peak operations with zero issues'
-                ]
-              },
-              {
-                title: 'Systems Innovation',
-                subtitle: 'Redesigning how things work to dominate',
-                image: '/images/integration.jpg',
-                achievements: [
-                  'Created Central Dock - network-wide transformation',
-                  'Designed innovations that became network standards',
-                  'Led $200MM program development with S&OP validation',
-                  'Transformed distributed inefficiencies into centralized advantages'
-                ]
-              },
-              {
-                title: 'Financial Optimization',
-                subtitle: 'Making things work more efficiently to crush costs',
-                image: '/images/consulting.jpg',
-                achievements: [
-                  'Identified $100M+ in annual cost reduction opportunities',
-                  'Analyzed $9.3B in operational spend',
-                  'Led executive alignment on controversial policy decisions',
-                  'Designed cost optimization strategies maintaining competitive positioning'
-                ]
-              }
-            ].map((expertise, index) => (
-              <div key={index} className="bg-gray-50 p-8 rounded-lg shadow-lg card-hover animate-slide-up">
-                <div className="relative w-full h-48 mb-6 rounded-lg overflow-hidden">
-                  <Image
-                    src={expertise.image}
-                    alt={expertise.title}
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-                <h3 className="text-2xl font-bold mb-2">{expertise.title}</h3>
-                <p className="text-gray-600 mb-6 italic">{expertise.subtitle}</p>
-                <ul className="space-y-2">
-                  {expertise.achievements.map((achievement, idx) => (
-                    <li key={idx} className="flex items-start">
-                      <span className="text-primary mr-2">•</span>
-                      <span className="text-gray-700">{achievement}</span>
-                    </li>
-                  ))}
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-5xl md:text-6xl font-black mb-8">
+                I <span className="text-red-500">DESTROY</span> INEFFICIENCY
+                <br />
+                I <span className="text-red-500">BUILD</span> EMPIRES
+              </h2>
+              <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+                While other consultants give you PowerPoint decks, I give you operational weapons that generate measurable, massive returns.
+              </p>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="bg-black p-8 rounded-lg border border-gray-800">
+                <div className="text-red-500 text-4xl mb-4">⚡</div>
+                <h3 className="text-2xl font-bold mb-4">OPERATIONAL WARFARE</h3>
+                <p className="text-gray-300 mb-6">
+                  I don't just identify problems. I declare war on inefficiency and build systems that dominate your competition.
+                </p>
+                <ul className="text-gray-400 space-y-2">
+                  <li>• Supply Chain Optimization</li>
+                  <li>• Process Reengineering</li>
+                  <li>• Cost Structure Overhaul</li>
                 </ul>
               </div>
-            ))}
+              
+              <div className="bg-black p-8 rounded-lg border border-gray-800">
+                <div className="text-red-500 text-4xl mb-4">🎯</div>
+                <h3 className="text-2xl font-bold mb-4">SYSTEMS INNOVATION</h3>
+                <p className="text-gray-300 mb-6">
+                  I build technology and process architectures that don't just work—they create unfair competitive advantages.
+                </p>
+                <ul className="text-gray-400 space-y-2">
+                  <li>• Digital Transformation</li>
+                  <li>• Automation Strategy</li>
+                  <li>• Data-Driven Operations</li>
+                </ul>
+              </div>
+              
+              <div className="bg-black p-8 rounded-lg border border-gray-800">
+                <div className="text-red-500 text-4xl mb-4">💰</div>
+                <h3 className="text-2xl font-bold mb-4">FINANCIAL DOMINANCE</h3>
+                <p className="text-gray-300 mb-6">
+                  I don't save you money. I redesign your entire financial model to generate exponential returns.
+                </p>
+                <ul className="text-gray-400 space-y-2">
+                  <li>• Cost Optimization</li>
+                  <li>• Revenue Enhancement</li>
+                  <li>• Investment Strategy</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Case Studies Preview */}
-      <section className="py-20 bg-gray-900 text-white">
+      {/* Who I Work With */}
+      <section className="py-20 bg-black">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold mb-12 text-center reveal">
-            My Signature Victories
-          </h2>
-          <div className="grid md:grid-cols-3 gap-8 stagger-children">
-            {[
-              {
-                title: 'OCEANS-CARGO Cost Analysis',
-                description: 'Developed comprehensive fraud, waste, and abuse framework that identified $100M in annual cost reduction opportunities across $9.3B in wage spend.',
-                image: '/images/cso.jpg',
-                link: '/case-studies#cost-optimization'
-              },
-              {
-                title: 'Central Dock Innovation',
-                description: 'Redesigned Amazon\'s entire fulfillment network, eliminating post-slam defects while reducing variable headcount through systematic optimization.',
-                image: '/images/cto.jpg',
-                link: '/case-studies#central-dock'
-              },
-              {
-                title: 'Executive Alignment Leadership',
-                description: 'Led controversial policy decisions affecting hundreds of thousands of associates, achieving 19.8% cost reduction through standardization.',
-                image: '/images/cso.jpg',
-                link: '/case-studies#executive-alignment'
-              }
-            ].map((caseStudy, index) => (
-              <div key={index} className="bg-gray-800 p-8 rounded-lg shadow-lg card-hover animate-slide-up">
-                <div className="relative w-full h-48 mb-6 rounded-lg overflow-hidden">
-                  <Image
-                    src={caseStudy.image}
-                    alt={caseStudy.title}
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-                <h3 className="text-xl font-bold mb-4">{caseStudy.title}</h3>
-                <p className="text-gray-300 mb-6">{caseStudy.description}</p>
-                <a href={caseStudy.link} className="text-primary hover:text-primary/80 font-semibold">
-                  Deploy Intel →
-                </a>
+          <div className="max-w-6xl mx-auto text-center">
+            <h2 className="text-5xl md:text-6xl font-black mb-8">
+              I WORK WITH <span className="text-red-500">PREDATORS</span>
+            </h2>
+            <p className="text-xl text-gray-300 mb-12 max-w-3xl mx-auto">
+              Fortune 500 companies that want to dominate their markets, not just compete in them.
+            </p>
+            
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
+              <div className="bg-gray-900 p-6 rounded-lg">
+                <div className="text-2xl font-bold text-gray-300">$1B+</div>
+                <div className="text-gray-500">Revenue Companies</div>
               </div>
-            ))}
+              <div className="bg-gray-900 p-6 rounded-lg">
+                <div className="text-2xl font-bold text-gray-300">10K+</div>
+                <div className="text-gray-500">Employee Organizations</div>
+              </div>
+              <div className="bg-gray-900 p-6 rounded-lg">
+                <div className="text-2xl font-bold text-gray-300">Global</div>
+                <div className="text-gray-500">Operations</div>
+              </div>
+              <div className="bg-gray-900 p-6 rounded-lg">
+                <div className="text-2xl font-bold text-gray-300">C-Suite</div>
+                <div className="text-gray-500">Direct Access</div>
+              </div>
+            </div>
+            
+            <button className="bg-red-600 hover:bg-red-700 text-white px-12 py-4 rounded-lg text-xl font-bold transition-all duration-300">
+              SEE IF YOU QUALIFY
+            </button>
+          </div>
+        </div>
+      </section>
+
+      {/* Investment Levels */}
+      <section className="py-20 bg-gray-900">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto text-center">
+            <h2 className="text-5xl md:text-6xl font-black mb-8">
+              INVESTMENT <span className="text-red-500">LEVELS</span>
+            </h2>
+            <p className="text-xl text-gray-300 mb-16 max-w-3xl mx-auto">
+              I don't work with companies that think in thousands. I work with companies that think in millions.
+            </p>
+            
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="bg-black p-8 rounded-lg border border-gray-800">
+                <div className="text-red-500 text-3xl font-bold mb-4">STRATEGIC ASSESSMENT</div>
+                <div className="text-4xl font-black mb-4">$50K</div>
+                <div className="text-gray-400 mb-6">90-Day Deep Dive</div>
+                <ul className="text-gray-300 space-y-3 mb-8 text-left">
+                  <li>• Operational Audit</li>
+                  <li>• Transformation Roadmap</li>
+                  <li>• ROI Projections</li>
+                  <li>• Implementation Strategy</li>
+                </ul>
+                <button className="w-full bg-gray-800 hover:bg-gray-700 text-white py-3 rounded-lg font-bold transition-all duration-300">
+                  BOOK ASSESSMENT
+                </button>
+              </div>
+              
+              <div className="bg-red-900 p-8 rounded-lg border-2 border-red-500 relative">
+                <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-red-500 text-black px-6 py-2 rounded-full text-sm font-bold">
+                  MOST POPULAR
+                </div>
+                <div className="text-red-500 text-3xl font-bold mb-4">TRANSFORMATION EXECUTION</div>
+                <div className="text-4xl font-black mb-4">$250K</div>
+                <div className="text-gray-400 mb-6">6-Month Implementation</div>
+                <ul className="text-gray-300 space-y-3 mb-8 text-left">
+                  <li>• Full System Redesign</li>
+                  <li>• Team Training & Leadership</li>
+                  <li>• Performance Monitoring</li>
+                  <li>• Ongoing Optimization</li>
+                </ul>
+                <button className="w-full bg-red-600 hover:bg-red-700 text-white py-3 rounded-lg font-bold transition-all duration-300">
+                  START TRANSFORMATION
+                </button>
+              </div>
+              
+              <div className="bg-black p-8 rounded-lg border border-gray-800">
+                <div className="text-red-500 text-3xl font-bold mb-4">ENTERPRISE PARTNERSHIP</div>
+                <div className="text-4xl font-black mb-4">$500K+</div>
+                <div className="text-gray-400 mb-6">12-Month Partnership</div>
+                <ul className="text-gray-300 space-y-3 mb-8 text-left">
+                  <li>• Complete Business Overhaul</li>
+                  <li>• Executive Coaching</li>
+                  <li>• Strategic Advisory</li>
+                  <li>• Performance Guarantees</li>
+                </ul>
+                <button className="w-full bg-gray-800 hover:bg-gray-700 text-white py-3 rounded-lg font-bold transition-all duration-300">
+                  DISCUSS PARTNERSHIP
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="py-20">
+      <section className="py-20 bg-black">
         <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center reveal">
-            <h2 className="text-4xl font-bold mb-8 gradient-text">
-              Ready to Transform Your Operations?
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-5xl md:text-6xl font-black mb-8">
+              READY TO <span className="text-red-500">DOMINATE</span>?
             </h2>
-            <p className="text-xl mb-8 text-gray-600">
-              Join industry leaders who have already revolutionized their operations with PlumbLineHR's strategic transformation approach.
+            <p className="text-xl text-gray-300 mb-12">
+              Stop thinking small. Start thinking like a predator. Your competition is already behind you.
             </p>
-            <a
-              href="/contact"
-              className="inline-block bg-primary hover-lift text-white px-8 py-4 rounded-md font-semibold hover:bg-primary/90 transition-colors text-lg"
-            >
-              Schedule Your Strategic Assessment
-            </a>
+            <button className="bg-red-600 hover:bg-red-700 text-white px-16 py-6 rounded-lg text-2xl font-bold transition-all duration-300 transform hover:scale-105">
+              BOOK YOUR TRANSFORMATION
+            </button>
           </div>
         </div>
       </section>
