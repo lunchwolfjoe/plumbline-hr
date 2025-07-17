@@ -7,8 +7,8 @@ import ClientAuthProvider from '@/components/ClientAuthProvider'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'PlumbLine HR - Modern HR Solutions',
-  description: 'Empowering businesses with modern HR solutions.',
+  title: 'PlumbLineHR - Enterprise Transformation & AI Strategy',
+  description: 'Military veteran and Amazon principal delivering enterprise transformations and AI strategy that generate hundreds of millions in value.',
 }
 
 export default function RootLayout({
@@ -18,114 +18,131 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className} bg-black text-white`}>
         <ClientAuthProvider>
-          <header className="bg-white shadow-sm">
-            <nav className="container mx-auto px-4 py-4">
+          <header className="bg-black border-b border-gray-800">
+            <nav className="container mx-auto px-4 py-6">
               <div className="flex items-center justify-between">
                 <a href="/" className="flex items-center">
-                  <Logo className="w-40 h-10" />
+                  <div className="text-2xl font-black text-white">
+                    <span className="text-red-500">PLUMB</span>LINE<span className="text-red-500">HR</span>
+                  </div>
                 </a>
                 <div className="hidden md:flex items-center space-x-8">
-                  <a href="/services" className="text-gray-600 hover:text-primary transition-colors">
-                    Services
+                  <a href="/services" className="text-gray-300 hover:text-red-500 transition-colors font-semibold">
+                    ENTERPRISE WEAPONS
                   </a>
-                  <a href="/about" className="text-gray-600 hover:text-primary transition-colors">
-                    About
+                  <a href="/about" className="text-gray-300 hover:text-red-500 transition-colors font-semibold">
+                    THE PREDATOR
                   </a>
-                  <a href="/contact" className="text-gray-600 hover:text-primary transition-colors">
-                    Contact
+                  <a href="/contact" className="text-gray-300 hover:text-red-500 transition-colors font-semibold">
+                    CONTACT
                   </a>
                 </div>
                 <div className="flex items-center space-x-4">
                   <a
-                    href="/login"
-                    className="text-gray-600 hover:text-primary transition-colors"
+                    href="/contact"
+                    className="text-gray-300 hover:text-red-500 transition-colors font-semibold"
                   >
-                    Login
+                    BOOK CONSULTATION
                   </a>
                   <a
-                    href="/signup"
-                    className="bg-primary text-white px-4 py-2 rounded-md hover:bg-primary/90 transition-colors"
+                    href="/contact"
+                    className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-bold transition-all duration-300 transform hover:scale-105"
                   >
-                    Sign Up
+                    START TRANSFORMATION
                   </a>
                 </div>
               </div>
             </nav>
           </header>
           {children}
-          <footer className="bg-gray-50 py-12">
+          <footer className="bg-gray-900 border-t border-gray-800 py-16">
             <div className="container mx-auto px-4">
               <div className="grid md:grid-cols-4 gap-8">
                 <div>
-                  <Logo className="w-32 h-8 mb-4" />
-                  <p className="text-gray-600">
-                    Empowering businesses with modern HR solutions.
+                  <div className="text-2xl font-black text-white mb-4">
+                    <span className="text-red-500">PLUMB</span>LINE<span className="text-red-500">HR</span>
+                  </div>
+                  <p className="text-gray-300 mb-4">
+                    Enterprise transformation and AI strategy that generates hundreds of millions in value.
                   </p>
+                  <div className="flex space-x-4">
+                    <div className="bg-red-600 text-white px-3 py-1 rounded-full text-sm font-bold">
+                      MILITARY VETERAN
+                    </div>
+                    <div className="bg-red-600 text-white px-3 py-1 rounded-full text-sm font-bold">
+                      AMAZON PRINCIPAL
+                    </div>
+                  </div>
                 </div>
                 <div>
-                  <h3 className="font-semibold mb-4">Services</h3>
+                  <h3 className="font-bold text-white mb-4">ENTERPRISE WEAPONS</h3>
                   <ul className="space-y-2">
                     <li>
-                      <a href="/services" className="text-gray-600 hover:text-primary">
-                        HR Management
+                      <a href="/services" className="text-gray-300 hover:text-red-500 transition-colors">
+                        Operational Warfare
                       </a>
                     </li>
                     <li>
-                      <a href="/services" className="text-gray-600 hover:text-primary">
-                        Analytics
+                      <a href="/services" className="text-gray-300 hover:text-red-500 transition-colors">
+                        Systems Innovation
                       </a>
                     </li>
                     <li>
-                      <a href="/services" className="text-gray-600 hover:text-primary">
-                        Consulting
+                      <a href="/services" className="text-gray-300 hover:text-red-500 transition-colors">
+                        AI Transformation
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/services" className="text-gray-300 hover:text-red-500 transition-colors">
+                        Financial Dominance
                       </a>
                     </li>
                   </ul>
                 </div>
                 <div>
-                  <h3 className="font-semibold mb-4">Company</h3>
+                  <h3 className="font-bold text-white mb-4">TRANSFORMATION LEVELS</h3>
                   <ul className="space-y-2">
                     <li>
-                      <a href="/about" className="text-gray-600 hover:text-primary">
-                        About Us
+                      <a href="/services" className="text-gray-300 hover:text-red-500 transition-colors">
+                        Strategic Assessment - $50K
                       </a>
                     </li>
                     <li>
-                      <a href="/careers" className="text-gray-600 hover:text-primary">
-                        Careers
+                      <a href="/services" className="text-gray-300 hover:text-red-500 transition-colors">
+                        Transformation Execution - $250K
                       </a>
                     </li>
                     <li>
-                      <a href="/blog" className="text-gray-600 hover:text-primary">
-                        Blog
+                      <a href="/services" className="text-gray-300 hover:text-red-500 transition-colors">
+                        Enterprise Partnership - $500K+
                       </a>
                     </li>
                   </ul>
                 </div>
                 <div>
-                  <h3 className="font-semibold mb-4">Contact</h3>
+                  <h3 className="font-bold text-white mb-4">CONTACT THE PREDATOR</h3>
                   <ul className="space-y-2">
-                    <li className="text-gray-600">
-                      <a href="mailto:contact@plumblinehr.com" className="hover:text-primary">
-                        contact@plumblinehr.com
+                    <li className="text-gray-300">
+                      <a href="mailto:nick@plumblinehr.com" className="hover:text-red-500 transition-colors">
+                        nick@plumblinehr.com
                       </a>
                     </li>
-                    <li className="text-gray-600">
-                      <a href="tel:+1234567890" className="hover:text-primary">
+                    <li className="text-gray-300">
+                      <a href="tel:+1234567890" className="hover:text-red-500 transition-colors">
                         (123) 456-7890
                       </a>
                     </li>
-                    <li className="text-gray-600">
-                      123 Business Ave, Suite 100<br />
-                      San Francisco, CA 94107
+                    <li className="text-gray-300">
+                      Ready to dominate your market?<br />
+                      Let's discuss your transformation.
                     </li>
                   </ul>
                 </div>
               </div>
-              <div className="border-t border-gray-200 mt-12 pt-8 text-center text-gray-600">
-                <p>&copy; {new Date().getFullYear()} PlumbLine HR. All rights reserved.</p>
+              <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
+                <p>&copy; {new Date().getFullYear()} PlumbLineHR. All rights reserved. | Zero failed transformations.</p>
               </div>
             </div>
           </footer>

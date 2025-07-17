@@ -40,14 +40,14 @@ export default function Services() {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-5xl md:text-6xl font-black mb-8">
-                MY <span className="text-red-500">TRIPLE-THREAT</span> ARSENAL
+                MY <span className="text-red-500">QUADRUPLE-THREAT</span> ARSENAL
               </h2>
               <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-                Most consultants have one trick. I've got three locked and loaded - forged in military ops and Amazon's war rooms.
+                Most consultants have one trick. I've got four locked and loaded - forged in military ops, Amazon's war rooms, and AI innovation.
               </p>
             </div>
             
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-8">
               {/* Operational Warfare */}
               <div className="bg-gray-900 p-8 rounded-lg border border-gray-800">
                 <div className="text-red-500 text-6xl mb-6">⚡</div>
@@ -120,6 +120,42 @@ export default function Services() {
                 </div>
               </div>
               
+              {/* AI Transformation */}
+              <div className="bg-gray-900 p-8 rounded-lg border border-gray-800">
+                <div className="text-red-500 text-6xl mb-6">🤖</div>
+                <h3 className="text-3xl font-black mb-4">AI TRANSFORMATION</h3>
+                <p className="text-gray-300 mb-8 text-lg">
+                  I design agentic AI transformation plans that don't just automate—they create intelligent systems that think and act autonomously.
+                </p>
+                <div className="space-y-4 mb-8">
+                  <div className="flex items-start">
+                    <span className="text-red-500 mr-3 text-xl">•</span>
+                    <div>
+                      <h4 className="font-bold text-white mb-1">Agentic AI Strategy</h4>
+                      <p className="text-gray-400">Design AI systems that make autonomous decisions and take action</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start">
+                    <span className="text-red-500 mr-3 text-xl">•</span>
+                    <div>
+                      <h4 className="font-bold text-white mb-1">Autonomous Systems</h4>
+                      <p className="text-gray-400">Build AI-powered operations that run independently and optimize themselves</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start">
+                    <span className="text-red-500 mr-3 text-xl">•</span>
+                    <div>
+                      <h4 className="font-bold text-white mb-1">AI-Powered Intelligence</h4>
+                      <p className="text-gray-400">Create systems that learn, adapt, and outperform human decision-making</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-red-900 p-4 rounded-lg">
+                  <div className="text-red-500 font-bold mb-2">DELIVERED RESULTS:</div>
+                  <div className="text-white">AI transformation strategies for Fortune 500 enterprises</div>
+                </div>
+              </div>
+              
               {/* Financial Dominance */}
               <div className="bg-gray-900 p-8 rounded-lg border border-gray-800">
                 <div className="text-red-500 text-6xl mb-6">💰</div>
@@ -184,7 +220,7 @@ export default function Services() {
                   </li>
                   <li className="flex items-start">
                     <span className="text-red-500 mr-3">✓</span>
-                    <span>Transformation roadmap with ROI projections</span>
+                    <span>AI transformation roadmap with ROI projections</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-red-500 mr-3">✓</span>
@@ -215,7 +251,7 @@ export default function Services() {
                   </li>
                   <li className="flex items-start">
                     <span className="text-red-500 mr-3">✓</span>
-                    <span>Team training and leadership development</span>
+                    <span>AI implementation and training</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-red-500 mr-3">✓</span>
@@ -243,7 +279,7 @@ export default function Services() {
                   </li>
                   <li className="flex items-start">
                     <span className="text-red-500 mr-3">✓</span>
-                    <span>Executive coaching and leadership development</span>
+                    <span>AI strategy & implementation</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-red-500 mr-3">✓</span>

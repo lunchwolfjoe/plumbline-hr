@@ -32,7 +32,7 @@ export default function Home() {
           <div className="max-w-6xl mx-auto text-center">
             {/* Badge */}
             <div className="inline-block bg-red-600 text-white px-6 py-2 rounded-full text-sm font-bold mb-8 tracking-wider">
-              MILITARY VETERAN • AMAZON PRINCIPAL • ENTERPRISE TRANSFORMER
+              MILITARY VETERAN • AMAZON PRINCIPAL • AI TRANSFORMATION EXPERT
             </div>
             
             {/* Main Headline */}
@@ -44,11 +44,11 @@ export default function Home() {
             
             {/* Subheadline */}
             <p className="text-2xl md:text-3xl font-light mb-12 max-w-4xl mx-auto leading-relaxed">
-              I don't optimize your operations. I <span className="text-red-500 font-bold">REDESIGN YOUR ENTIRE BUSINESS MODEL</span> to generate hundreds of millions in new value.
+              I don't optimize your operations. I <span className="text-red-500 font-bold">REDESIGN YOUR ENTIRE BUSINESS MODEL</span> with AI transformation that generates hundreds of millions in new value.
             </p>
             
             {/* Stats Bar */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
               <div className="bg-black/50 backdrop-blur-sm p-6 rounded-lg border border-gray-800">
                 <div className="text-4xl font-black text-red-500 mb-2">$100M+</div>
                 <div className="text-gray-300">Cost Reduction Delivered</div>
@@ -60,6 +60,10 @@ export default function Home() {
               <div className="bg-black/50 backdrop-blur-sm p-6 rounded-lg border border-gray-800">
                 <div className="text-4xl font-black text-red-500 mb-2">0</div>
                 <div className="text-gray-300">Failed Transformations</div>
+              </div>
+              <div className="bg-black/50 backdrop-blur-sm p-6 rounded-lg border border-gray-800">
+                <div className="text-4xl font-black text-red-500 mb-2">AI</div>
+                <div className="text-gray-300">Transformation Expert</div>
               </div>
             </div>
             
@@ -91,7 +95,7 @@ export default function Home() {
               </p>
             </div>
             
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="bg-black p-8 rounded-lg border border-gray-800">
                 <div className="text-red-500 text-4xl mb-4">⚡</div>
                 <h3 className="text-2xl font-bold mb-4">OPERATIONAL WARFARE</h3>
@@ -115,6 +119,19 @@ export default function Home() {
                   <li>• Digital Transformation</li>
                   <li>• Automation Strategy</li>
                   <li>• Data-Driven Operations</li>
+                </ul>
+              </div>
+              
+              <div className="bg-black p-8 rounded-lg border border-gray-800">
+                <div className="text-red-500 text-4xl mb-4">🤖</div>
+                <h3 className="text-2xl font-bold mb-4">AI TRANSFORMATION</h3>
+                <p className="text-gray-300 mb-6">
+                  I design agentic AI transformation plans that don't just automate—they create intelligent systems that think and act autonomously.
+                </p>
+                <ul className="text-gray-400 space-y-2">
+                  <li>• Agentic AI Strategy</li>
+                  <li>• Autonomous Systems Design</li>
+                  <li>• AI-Powered Operations</li>
                 </ul>
               </div>
               
@@ -190,7 +207,7 @@ export default function Home() {
                 <div className="text-gray-400 mb-6">90-Day Deep Dive</div>
                 <ul className="text-gray-300 space-y-3 mb-8 text-left">
                   <li>• Operational Audit</li>
-                  <li>• Transformation Roadmap</li>
+                  <li>• AI Transformation Roadmap</li>
                   <li>• ROI Projections</li>
                   <li>• Implementation Strategy</li>
                 </ul>
@@ -208,7 +225,7 @@ export default function Home() {
                 <div className="text-gray-400 mb-6">6-Month Implementation</div>
                 <ul className="text-gray-300 space-y-3 mb-8 text-left">
                   <li>• Full System Redesign</li>
-                  <li>• Team Training & Leadership</li>
+                  <li>• AI Implementation</li>
                   <li>• Performance Monitoring</li>
                   <li>• Ongoing Optimization</li>
                 </ul>
@@ -223,7 +240,7 @@ export default function Home() {
                 <div className="text-gray-400 mb-6">12-Month Partnership</div>
                 <ul className="text-gray-300 space-y-3 mb-8 text-left">
                   <li>• Complete Business Overhaul</li>
-                  <li>• Executive Coaching</li>
+                  <li>• AI Strategy & Implementation</li>
                   <li>• Strategic Advisory</li>
                   <li>• Performance Guarantees</li>
                 </ul>
