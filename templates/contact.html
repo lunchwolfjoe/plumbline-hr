@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - Nick Plumb</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="hero" style="background-image: url('{{ url_for('static', filename='contact-hero.jpg') }}');">
+            <nav class="sticky-nav">
+                <div class="container">
+                    <a href="/" class="logo">Nick Plumb</a>
+                    <div class="nav-links">
+                        <a href="/">Home</a>
+                        <a href="/services">Services</a>
+                        <a href="/about">About</a>
+                        <a href="/testimonials">Testimonials</a>
+                        <a href="/case-studies">Case Studies</a>
+                        <a href="/contact">Contact</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="hero-content">
+                <h1>Ready to Transform Your Organization?</h1>
+                <p>Schedule Your Strategic Transformation Assessment</p>
+            </div>
+        </div>
+    </header>
+    
+    <section class="content">
+        <div class="container">
+            <div class="contact-intro">
+                <h2>60-Minute Executive Conversation</h2>
+                <p>Let's discuss your organization's biggest transformation opportunities and determine the potential ROI from strategic intervention.</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>What We'll Cover</h3>
+                    <ul>
+                        <li>Your organization's biggest cost optimization opportunities</li>
+                        <li>Systematic inefficiencies that could be eliminated</li>
+                        <li>Innovation potential within your current operations</li>
+                        <li>Executive alignment challenges and solutions</li>
+                        <li>Potential ROI from strategic transformation</li>
+                    </ul>
+                    
+                    <div class="investment-levels">
+                        <h3>Investment Levels</h3>
+                        <div class="investment-card">
+                            <h4>Strategic Assessment</h4>
+                            <p>4-8 weeks comprehensive analysis</p>
+                            <strong>$150K-$400K</strong>
+                        </div>
+                        <div class="investment-card">
+                            <h4>Transformation Program</h4>
+                            <p>6-24 months full implementation</p>
+                            <strong>$500K-$3M</strong>
+                        </div>
+                        <div class="investment-card">
+                            <h4>Strategic Partnership</h4>
+                            <p>12+ months ongoing advisory</p>
+                            <strong>$75K-$200K/month</strong>
+                        </div>
+                    </div>
+                    
+                    <div class="roi-guarantee">
+                        <h3>ROI Guarantee</h3>
+                        <p><em>Most clients achieve 5-15x return on investment within 18 months through cost savings, operational improvements, and competitive advantage creation.</em></p>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Schedule Your Assessment</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="company">Company *</label>
+                            <input type="text" id="company" name="company" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="title">Title *</label>
+                            <input type="text" id="title" name="title" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="revenue">Annual Revenue</label>
+                            <select id="revenue" name="revenue">
+                                <option value="">Select range</option>
+                                <option value="under-100m">Under $100M</option>
+                                <option value="100m-1b">$100M - $1B</option>
+                                <option value="1b-10b">$1B - $10B</option>
+                                <option value="over-10b">Over $10B</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="challenge">Primary Challenge</label>
+                            <select id="challenge" name="challenge">
+                                <option value="">Select primary challenge</option>
+                                <option value="cost-optimization">Cost Optimization</option>
+                                <option value="systems-innovation">Systems Innovation</option>
+                                <option value="compensation-strategy">Compensation Strategy</option>
+                                <option value="leadership-development">Leadership Development</option>
+                                <option value="operational-transformation">Operational Transformation</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Tell me about your transformation goals</label>
+                            <textarea id="message" name="message" rows="4"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn">Schedule My Assessment</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="contact-details">
+                <h3>Direct Contact</h3>
+                <div class="contact-methods">
+                    <div class="contact-method">
+                        <strong>Phone:</strong> 701-818-9831
+                    </div>
+                    <div class="contact-method">
+                        <strong>Email:</strong> <a href="mailto:nykplumb@gmail.com">nykplumb@gmail.com</a>
+                    </div>
+                    <div class="contact-method">
+                        <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/nick-p-80b0476b" target="_blank">Nick Plumb</a>
+                    </div>
+                </div>
+                <p><em>Based in Texas, serving clients nationwide. Available for on-site engagements, executive facilitation, and remote strategic advisory.</em></p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>© 2025 Nick Plumb</p>
+        </div>
+    </footer>
+</body>
+</html>

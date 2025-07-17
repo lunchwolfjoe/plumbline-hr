@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Testimonials - Nick Plumb</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="hero" style="background-image: url('{{ url_for('static', filename='testimonials-hero.jpg') }}');">
+            <nav class="sticky-nav">
+                <div class="container">
+                    <a href="/" class="logo">Nick Plumb</a>
+                    <div class="nav-links">
+                        <a href="/">Home</a>
+                        <a href="/services">Services</a>
+                        <a href="/about">About</a>
+                        <a href="/testimonials">Testimonials</a>
+                        <a href="/case-studies">Case Studies</a>
+                        <a href="/contact">Contact</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="hero-content">
+                <h1>Proven Strategic Impact</h1>
+                <p>Documented Results from My Amazon Leadership</p>
+            </div>
+        </div>
+    </header>
+    <section class="content">
+        <div class="container">
+            <p>Real outcomes from my strategic HR leadership at Amazon, demonstrating the frameworks and methodologies now available to your organization.</p>
+            <div class="testimonial-card">
+                <img src="{{ url_for('static', filename='jennifer.jpg') }}" alt="Amazon Operations">
+                <p>"Nick's OCEANS-CARGO framework identified $100M in annual cost reduction opportunities across our $9.3B wage spend."</p>
+                <p><strong>My Methodology:</strong> Systematic fraud, waste, and abuse analysis across 178 pay codes.</p>
+                <p><em>— Amazon Operations Leadership</em></p>
+            </div>
+            <div class="testimonial-card">
+                <img src="{{ url_for('static', filename='david.jpg') }}" alt="Amazon Fulfillment">
+                <p>"Central Dock redesigned our entire fulfillment network, eliminating post-slam defects while reducing variable headcount."</p>
+                <p><strong>My Methodology:</strong> Systems thinking and network-wide operational redesign.</p>
+                <p><em>— Amazon Fulfillment Leadership</em></p>
+            </div>
+            <div class="testimonial-card">
+                <img src="{{ url_for('static', filename='rachel.jpg') }}" alt="Amazon HR">
+                <p>"19.8% cost reduction through shift differential standardization, eliminating internal competition across hundreds of locations."</p>
+                <p><strong>My Methodology:</strong> Executive alignment and policy standardization framework.</p>
+                <p><em>— Amazon HR Leadership</em></p>
+            </div>
+            <div class="testimonial-card">
+                <img src="{{ url_for('static', filename='thomas.jpg') }}" alt="Amazon Finance">
+                <p>"$696K annual savings per site through systematic policy optimization and executive alignment on controversial decisions."</p>
+                <p><strong>My Methodology:</strong> Data-driven stakeholder management and decision facilitation.</p>
+                <p><em>— Amazon Finance Leadership</em></p>
+            </div>
+            <a href="/contact" class="btn">Schedule Your Strategic Assessment</a>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>© 2025 Nick Plumb</p>
+        </div>
+    </footer>
+</body>
+</html>

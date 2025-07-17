@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About - Plumbline HR</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Plumbline HR</h1>
+            <p>Aligning People, Data, and Strategy</p>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <a href="/">Home</a>
+            <a href="/services">Services</a>
+            <a href="/about">About</a>
+            <a href="/testimonials">Testimonials</a>
+            <a href="/contact">Contact</a>
+        </div>
+    </nav>
+    <section class="content">
+        <div class="container">
+            <h2>About Nick Plumb</h2>
+            <p>Nick Plumb brings over 15 years of experience in HR, analytics, and operations leadership to Plumbline HR. As a Senior Manager at Amazon, Nick spearheaded compensation analytics for a $60B global workforce, saving $1.4B annually in fraud, waste, and abuse. His career spans roles in product management, operations optimization, and legal support, with a proven track record of driving efficiency and innovation.</p>
+            <p>Nick’s mission is simple: empower growing companies with the same data-driven HR strategies that fueled Amazon’s success—without the overhead of a full-time CPO.</p>
+            <a href="https://linkedin.com/in/nick-p-80b0476b" target="_blank" class="btn">Connect on LinkedIn</a>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>© 2025 Plumbline HR</p>
+        </div>
+    </footer>
+</body>
+</html>

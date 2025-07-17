@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PlumbLineHR - Strategic Transformation Architects</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="dark-theme">
+    <header>
+        <div class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('{{ url_for('static', filename='badass-hero.jpg') }}'); background-size: cover; background-position: center;">
+            <nav class="sticky-nav">
+                <div class="container">
+                    <a href="/" class="logo">PlumbLineHR</a>
+                    <div class="nav-links">
+                        <a href="/">Home</a>
+                        <a href="/services">Services</a>
+                        <a href="/about">About</a>
+                        <a href="/testimonials">Testimonials</a>
+                        <a href="/case-studies">Case Studies</a>
+                        <a href="/contact">Contact</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="hero-content">
+                <h1 class="hero-headline">I Don't Just Solve Problems - I Redesign Systems That Create Value</h1>
+                <p class="hero-subtitle">Military Veteran • Amazon Principal • Ops Problem Solver Extraordinaire</p>
+                <p class="hero-description">From $100M+ cost optimizations to network-wide innovations that become industry standards - I fix any ops problem.</p>
+                <a href="/contact" class="btn btn-primary">Schedule Your Strategic Assessment <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </header>
+    
+    <section class="value-proposition">
+        <div class="container">
+            <div class="value-content">
+                <h2>When Your Ops Are Broken, I'm The Fixer You Call</h2>
+                <p class="value-text">As the force behind PlumbLineHR, I bring battle-tested strategies from military operations and Amazon's high-stakes environment to crush your operational challenges and unlock massive value.</p>
+                <img src="{{ url_for('static', filename='nick-action-shot.jpg') }}" alt="Nick Plumb in action" class="value-image">
+            </div>
+        </div>
+    </section>
+
+    <section class="proven-track-record">
+        <div class="container">
+            <h2>My Battle-Proven Track Record</h2>
+            <div class="track-record-grid">
+                <div class="track-record-card">
+                    <i class="fas fa-dollar-sign icon"></i>
+                    <h3>$100M+</h3>
+                    <p>Annual cost reduction opportunities identified and validated</p>
+                </div>
+                <div class="track-record-card">
+                    <i class="fas fa-chart-line icon"></i>
+                    <h3>$9.3B</h3>
+                    <p>Operational spend analyzed and optimized</p>
+                </div>
+                <div class="track-record-card">
+                    <i class="fas fa-network-wired icon"></i>
+                    <h3>Network-Wide</h3>
+                    <p>System transformations that became industry standards</p>
+                </div>
+                <div class="track-record-card">
+                    <i class="fas fa-lightbulb icon"></i>
+                    <h3>Multiple</h3>
+                    <p>Innovations created that scaled across entire organizations</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="triple-threat">
+        <div class="container">
+            <h2>My Triple-Threat Arsenal</h2>
+            <p class="section-intro">Most consultants have one trick. I've got three locked and loaded - forged in military ops and Amazon's war rooms.</p>
+            <div class="expertise-grid">
+                <div class="expertise-card">
+                    <img src="{{ url_for('static', filename='ops-excellence-graphic.jpg') }}" alt="Operational Excellence" class="expertise-image">
+                    <h3>Operational Excellence</h3>
+                    <p>Making things work better under fire</p>
+                    <ul>
+                        <li>Led 3 complex Amazon launches with best-in-class results</li>
+                        <li>Developed 6+ leaders to senior management roles</li>
+                        <li>Created training programs delivering 40%+ improvements</li>
+                        <li>Managed peak operations with zero issues</li>
+                    </ul>
+                </div>
+                <div class="expertise-card">
+                    <img src="{{ url_for('static', filename='systems-innovation-graphic.jpg') }}" alt="Systems Innovation" class="expertise-image">
+                    <h3>Systems Innovation</h3>
+                    <p>Redesigning how things work to dominate</p>
+                    <ul>
+                        <li>Created Central Dock - network-wide transformation</li>
+                        <li>Designed innovations that became network standards</li>
+                        <li>Led $200MM program development with S&OP validation</li>
+                        <li>Transformed distributed inefficiencies into centralized advantages</li>
+                    </ul>
+                </div>
+                <div class="expertise-card">
+                    <img src="{{ url_for('static', filename='financial-optimization-graphic.jpg') }}" alt="Financial Optimization" class="expertise-image">
+                    <h3>Financial Optimization</h3>
+                    <p>Making things work more efficiently to crush costs</p>
+                    <ul>
+                        <li>Identified $100M+ in annual cost reduction opportunities</li>
+                        <li>Analyzed $9.3B in operational spend</li>
+                        <li>Led executive alignment on controversial policy decisions</li>
+                        <li>Designed cost optimization strategies maintaining competitive positioning</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="case-studies-preview">
+        <div class="container">
+            <h2>My Signature Victories</h2>
+            <div class="case-study-grid">
+                <div class="case-study-card">
+                    <img src="{{ url_for('static', filename='cost-optimization-graphic.jpg') }}" alt="Cost Optimization" class="case-image">
+                    <h3>OCEANS-CARGO Cost Analysis</h3>
+                    <p>Developed comprehensive fraud, waste, and abuse framework that identified $100M in annual cost reduction opportunities across $9.3B in wage spend.</p>
+                    <a href="/case-studies#cost-optimization" class="learn-more">Deploy Intel →</a>
+                </div>
+                <div class="case-study-card">
+                    <img src="{{ url_for('static', filename='central-dock-graphic.jpg') }}" alt="Central Dock" class="case-image">
+                    <h3>Central Dock Innovation</h3>
+                    <p>Redesigned Amazon's entire fulfillment network, eliminating post-slam defects while reducing variable headcount through systematic optimization.</p>
+                    <a href="/case-studies#central-dock" class="learn-more">Deploy Intel →</a>
+                </div>
+                <div class="case-study-card">
+                    <img src="{{ url_for('static', filename='executive-alignment-graphic.jpg') }}" alt="Executive Alignment" class="case-image">
+                    <h3>Executive Alignment Leadership</h3>
+                    <p>Led controversial policy decisions affecting hundreds of thousands of associates, achieving 19.8% cost reduction through standardization.</p>
+                    <a href="/case-studies#executive-alignment" class="learn-more">Deploy Intel →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 PlumbLineHR | 701-818-9831 | <a href="mailto:nykplumb@gmail.com">nykplumb@gmail.com</a></p>
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
