@@ -19,7 +19,7 @@ export default function Home() {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/nick-forest.jpg"
+            src="/thinkerheadshot.jpg"
             alt="Nick Plumb - Military Veteran & Amazon Principal"
             fill
             className="object-cover"

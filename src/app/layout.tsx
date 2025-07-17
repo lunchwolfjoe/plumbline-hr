@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Logo from './components/Logo'
 import ClientAuthProvider from '@/components/ClientAuthProvider'
+import MobileNav from './components/MobileNav'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -27,7 +28,7 @@ export default function RootLayout({
       </head>
       <body className={`${inter.className} bg-black text-white`}>
         <ClientAuthProvider>
-          <header className="bg-black border-b border-gray-800">
+          <header className="bg-black border-b border-gray-800 relative">
             <nav className="container mx-auto px-4 py-6">
               <div className="flex items-center justify-between">
                 <a href="/" className="flex items-center">
@@ -49,7 +50,7 @@ export default function RootLayout({
                     CONTACT
                   </a>
                 </div>
-                <div className="flex items-center space-x-4">
+                <div className="hidden md:flex items-center space-x-4">
                   <a
                     href="/contact"
                     className="text-gray-300 hover:text-red-500 transition-colors font-semibold"
@@ -63,13 +64,14 @@ export default function RootLayout({
                     START TRANSFORMATION
                   </a>
                 </div>
+                <MobileNav />
               </div>
             </nav>
           </header>
           {children}
           <footer className="bg-gray-900 border-t border-gray-800 py-16">
             <div className="container mx-auto px-4">
-              <div className="grid md:grid-cols-4 gap-8">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                 <div>
                   <div className="text-2xl font-black text-white mb-4">
                     <span className="text-red-500">PLUMB</span>LINE<span className="text-red-500">HR</span>
@@ -77,7 +79,7 @@ export default function RootLayout({
                   <p className="text-gray-300 mb-4">
                     Enterprise transformation and AI strategy that generates hundreds of millions in value.
                   </p>
-                  <div className="flex space-x-4">
+                  <div className="flex flex-wrap gap-2">
                     <div className="bg-red-600 text-white px-3 py-1 rounded-full text-sm font-bold">
                       MILITARY VETERAN
                     </div>

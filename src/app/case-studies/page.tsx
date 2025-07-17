@@ -12,7 +12,7 @@ export default function CaseStudies() {
       <section className="relative py-20 bg-gray-900">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/nick-forest.jpg"
+            src="/thinkerheadshot.jpg"
             alt="Case Studies - Transformation Proof"
             fill
             className="object-cover"

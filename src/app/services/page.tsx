@@ -12,7 +12,7 @@ export default function Services() {
       <section className="relative py-20 bg-gray-900">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/nick-forest.jpg"
+            src="/thinkerheadshot.jpg"
             alt="Enterprise Transformation Services"
             fill
             className="object-cover"
