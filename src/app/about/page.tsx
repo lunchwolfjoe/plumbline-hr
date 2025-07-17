@@ -12,7 +12,7 @@ export default function About() {
       <section className="relative py-20 bg-gray-900">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/nick-forest.jpg"
+            src="/thinkerheadshot.jpg"
             alt="Nick Plumb - Military Veteran & Amazon Principal"
             fill
             className="object-cover"
@@ -56,7 +56,7 @@ export default function About() {
               </div>
               <div className="relative">
                 <Image
-                  src="/images/nick-forest.jpg"
+                  src="/thinkerheadshot.jpg"
                   alt="Nick Plumb - Strategic Transformation Architect"
                   width={600}
                   height={800}
