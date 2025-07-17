@@ -185,4 +185,59 @@ html {
               linear-gradient(45deg, var(--primary), #7c3aed) border-box;
   border: 2px solid transparent;
   border-radius: 0.5rem;
+}
+
+/* Fix text overflow in transformation cards */
+.transformation-card {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+.transformation-card h3 {
+  word-break: break-word;
+  line-height: 1.2;
+}
+
+.transformation-card p {
+  word-break: break-word;
+  line-height: 1.5;
+}
+
+.transformation-card ul {
+  word-break: break-word;
+}
+
+.transformation-card li {
+  word-break: break-word;
+  line-height: 1.4;
+}
+
+/* Ensure proper text wrapping for long words */
+.text-wrap {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+/* Fix container max-width issues */
+.container {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Ensure cards don't overflow on mobile */
+@media (max-width: 768px) {
+  .transformation-card {
+    min-height: auto;
+    height: auto;
+  }
+  
+  .transformation-card h3 {
+    font-size: 1.5rem;
+  }
+  
+  .transformation-card p {
+    font-size: 0.9rem;
+  }
 } 

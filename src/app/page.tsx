@@ -32,7 +32,7 @@ export default function Home() {
           <div className="max-w-6xl mx-auto text-center">
             {/* Badge */}
             <div className="inline-block bg-red-600 text-white px-6 py-2 rounded-full text-sm font-bold mb-8 tracking-wider">
-              MILITARY VETERAN • AMAZON PRINCIPAL • AI TRANSFORMATION EXPERT
+              MILITARY VETERAN • WALMART STORE MANAGER • AMAZON PRINCIPAL • AI TRANSFORMATION EXPERT
             </div>
             
             {/* Main Headline */}
@@ -58,12 +58,12 @@ export default function Home() {
                 <div className="text-gray-300">Operational Spend Analyzed</div>
               </div>
               <div className="bg-black/50 backdrop-blur-sm p-6 rounded-lg border border-gray-800">
-                <div className="text-4xl font-black text-red-500 mb-2">0</div>
-                <div className="text-gray-300">Failed Transformations</div>
+                <div className="text-4xl font-black text-red-500 mb-2">$157M</div>
+                <div className="text-gray-300">Walmart Supercenter</div>
               </div>
               <div className="bg-black/50 backdrop-blur-sm p-6 rounded-lg border border-gray-800">
-                <div className="text-4xl font-black text-red-500 mb-2">AI</div>
-                <div className="text-gray-300">Transformation Expert</div>
+                <div className="text-4xl font-black text-red-500 mb-2">0</div>
+                <div className="text-gray-300">Failed Transformations</div>
               </div>
             </div>
             

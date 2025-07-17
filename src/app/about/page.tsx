@@ -25,7 +25,7 @@ export default function About() {
               THE <span className="text-red-500">PREDATOR</span> BEHIND THE TRANSFORMATION
             </h1>
             <p className="text-2xl md:text-3xl font-light mb-12 max-w-4xl mx-auto">
-              Military veteran. Amazon principal. Enterprise transformer. I don't just solve problems—I redesign entire business models to generate hundreds of millions in new value.
+              Military veteran. Walmart store manager. Amazon principal. Enterprise transformer. I don't just solve problems—I redesign entire business models to generate hundreds of millions in new value.
             </p>
             <div className="inline-block bg-red-600 text-white px-8 py-3 rounded-full text-lg font-bold">
               ZERO FAILED TRANSFORMATIONS
@@ -44,7 +44,7 @@ export default function About() {
                   FROM <span className="text-red-500">BATTLEFIELD</span> TO BOARDROOM
                 </h2>
                 <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-                  I learned operational excellence in the military, where failure meant lives lost. I mastered systems innovation at Amazon, where failure meant billions lost. Now I bring that same ruthless efficiency to Fortune 500 companies.
+                  I learned operational excellence in the military, where failure meant lives lost. I mastered retail operations at Walmart, where I ran the most profitable supercenter in the chain. I scaled innovation at Amazon, where failure meant billions lost. Now I bring that same ruthless efficiency to Fortune 500 companies.
                 </p>
                 <p className="text-xl text-gray-300 mb-8 leading-relaxed">
                   While other consultants give you PowerPoint decks and theoretical frameworks, I give you operational weapons that have been battle-tested in the most demanding environments on earth.
@@ -84,26 +84,26 @@ export default function About() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="bg-black p-8 rounded-lg border border-gray-800">
                 <div className="text-red-500 text-4xl mb-4">⚔️</div>
-                <h3 className="text-2xl font-bold mb-4">COMBAT LEADERSHIP</h3>
+                <h3 className="text-2xl font-bold mb-4">CJSOTF-AP</h3>
                 <p className="text-gray-300 mb-6">
-                  Led teams in high-stakes environments where failure wasn't an option. Every decision had life-or-death consequences.
+                  Served in Combined Joint Special Operations Task Force - Asia Pacific, solving classified problems that others couldn't.
                 </p>
                 <ul className="text-gray-400 space-y-2">
+                  <li>• Classified problem-solving operations</li>
                   <li>• Strategic planning under extreme pressure</li>
                   <li>• Team leadership in crisis situations</li>
-                  <li>• Resource optimization in constrained environments</li>
                 </ul>
               </div>
               
               <div className="bg-black p-8 rounded-lg border border-gray-800">
                 <div className="text-red-500 text-4xl mb-4">🎯</div>
-                <h3 className="text-2xl font-bold mb-4">OPERATIONAL EXCELLENCE</h3>
+                <h3 className="text-2xl font-bold mb-4">GTMO OPERATIONS</h3>
                 <p className="text-gray-300 mb-6">
-                  Mastered systems that had to work perfectly every time, because lives depended on it.
+                  Served at Guantanamo Bay, handling classified operations and complex problem-solving scenarios.
                 </p>
                 <ul className="text-gray-400 space-y-2">
+                  <li>• Classified intelligence operations</li>
                   <li>• Zero-defect operational systems</li>
-                  <li>• Real-time decision making</li>
                   <li>• Performance under extreme stress</li>
                 </ul>
               </div>
@@ -125,8 +125,68 @@ export default function About() {
         </div>
       </section>
 
-      {/* Amazon Experience */}
+      {/* Walmart Experience */}
       <section className="py-20 bg-black">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-5xl md:text-6xl font-black mb-8">
+                WALMART <span className="text-red-500">STORE MANAGER</span>
+              </h2>
+              <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+                Where I learned to think in millions and execute at retail scale that most people can't comprehend.
+              </p>
+            </div>
+            
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
+              <div>
+                <h3 className="text-3xl font-black mb-6">RETAIL OPERATIONS AT SCALE</h3>
+                <p className="text-xl text-gray-300 mb-8 leading-relaxed">
+                  At Walmart, I didn't just manage a store—I ran the most profitable supercenter in the entire chain. A $157M operation that became the benchmark for retail excellence across the company.
+                </p>
+                <div className="space-y-6">
+                  <div className="bg-gray-900 p-6 rounded-lg">
+                    <div className="text-red-500 font-bold mb-2">$157M SUPERcenter</div>
+                    <div className="text-white">Most profitable supercenter in the entire Walmart chain</div>
+                  </div>
+                  <div className="bg-gray-900 p-6 rounded-lg">
+                    <div className="text-red-500 font-bold mb-2">GLOBAL LEADERSHIP ACADEMY</div>
+                    <div className="text-white">Selected for Walmart's elite leadership development program</div>
+                  </div>
+                  <div className="bg-gray-900 p-6 rounded-lg">
+                    <div className="text-red-500 font-bold mb-2">RETAIL OPERATIONS MASTERY</div>
+                    <div className="text-white">Managed complex retail operations at massive scale</div>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-gray-900 p-8 rounded-lg">
+                <h4 className="text-2xl font-bold mb-6 text-center">WALMART ACHIEVEMENTS</h4>
+                <div className="space-y-4">
+                  <div className="flex justify-between items-center">
+                    <span className="text-gray-300">Store Revenue</span>
+                    <span className="text-red-500 font-bold">$157M</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-gray-300">Performance Ranking</span>
+                    <span className="text-red-500 font-bold">#1</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-gray-300">Leadership Program</span>
+                    <span className="text-red-500 font-bold">Global Academy</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-gray-300">Operational Scale</span>
+                    <span className="text-red-500 font-bold">Supercenter</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Amazon Experience */}
+      <section className="py-20 bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
@@ -145,21 +205,21 @@ export default function About() {
                   At Amazon, I didn't just manage operations—I redesigned entire networks that served millions of customers. I learned to think in terms of billions of dollars and millions of transactions.
                 </p>
                 <div className="space-y-6">
-                  <div className="bg-gray-900 p-6 rounded-lg">
+                  <div className="bg-black p-6 rounded-lg">
                     <div className="text-red-500 font-bold mb-2">CENTRAL DOCK INNOVATION</div>
                     <div className="text-white">Redesigned Amazon's entire fulfillment network, eliminating post-slam defects while reducing variable headcount through systematic optimization.</div>
                   </div>
-                  <div className="bg-gray-900 p-6 rounded-lg">
+                  <div className="bg-black p-6 rounded-lg">
                     <div className="text-red-500 font-bold mb-2">$9.3B OPERATIONAL SPEND</div>
                     <div className="text-white">Analyzed and optimized operational spend across the entire network, identifying $100M+ in annual cost reduction opportunities.</div>
                   </div>
-                  <div className="bg-gray-900 p-6 rounded-lg">
+                  <div className="bg-black p-6 rounded-lg">
                     <div className="text-red-500 font-bold mb-2">NETWORK-WIDE TRANSFORMATIONS</div>
                     <div className="text-white">Led innovations that became network standards, transforming distributed inefficiencies into centralized advantages.</div>
                   </div>
                 </div>
               </div>
-              <div className="bg-gray-900 p-8 rounded-lg">
+              <div className="bg-black p-8 rounded-lg">
                 <h4 className="text-2xl font-bold mb-6 text-center">AMAZON ACHIEVEMENTS</h4>
                 <div className="space-y-4">
                   <div className="flex justify-between items-center">
@@ -190,7 +250,7 @@ export default function About() {
       </section>
 
       {/* What Makes Me Different */}
-      <section className="py-20 bg-gray-900">
+      <section className="py-20 bg-black">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto text-center">
             <h2 className="text-5xl md:text-6xl font-black mb-8">
@@ -201,25 +261,25 @@ export default function About() {
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              <div className="bg-black p-6 rounded-lg border border-gray-800">
-                <div className="text-red-500 text-4xl mb-4">🎯</div>
+              <div className="bg-gray-900 p-6 rounded-lg border border-gray-800">
+                <div className="text-red-500 text-4xl mb-4">⚔️</div>
                 <h3 className="text-xl font-bold mb-4">BATTLE-TESTED</h3>
                 <p className="text-gray-300">Every strategy has been proven in the most demanding environments on earth.</p>
               </div>
               
-              <div className="bg-black p-6 rounded-lg border border-gray-800">
+              <div className="bg-gray-900 p-6 rounded-lg border border-gray-800">
+                <div className="text-red-500 text-4xl mb-4">🏪</div>
+                <h3 className="text-xl font-bold mb-4">RETAIL MASTER</h3>
+                <p className="text-gray-300">Ran the most profitable $157M supercenter in Walmart's entire chain.</p>
+              </div>
+              
+              <div className="bg-gray-900 p-6 rounded-lg border border-gray-800">
                 <div className="text-red-500 text-4xl mb-4">⚡</div>
                 <h3 className="text-xl font-bold mb-4">SCALE PROVEN</h3>
                 <p className="text-gray-300">I've managed operations that serve millions of customers and billions in revenue.</p>
               </div>
               
-              <div className="bg-black p-6 rounded-lg border border-gray-800">
-                <div className="text-red-500 text-4xl mb-4">💰</div>
-                <h3 className="text-xl font-bold mb-4">RESULTS GUARANTEED</h3>
-                <p className="text-gray-300">Zero failed transformations. Every engagement delivers measurable, massive returns.</p>
-              </div>
-              
-              <div className="bg-black p-6 rounded-lg border border-gray-800">
+              <div className="bg-gray-900 p-6 rounded-lg border border-gray-800">
                 <div className="text-red-500 text-4xl mb-4">🏆</div>
                 <h3 className="text-xl font-bold mb-4">EXECUTIVE ACCESS</h3>
                 <p className="text-gray-300">Direct C-suite relationships and board-level strategic advisory capabilities.</p>
@@ -230,7 +290,7 @@ export default function About() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-black">
+      <section className="py-20 bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-5xl md:text-6xl font-black mb-8">

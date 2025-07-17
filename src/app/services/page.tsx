@@ -49,7 +49,7 @@ export default function Services() {
             
             <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-8">
               {/* Operational Warfare */}
-              <div className="bg-gray-900 p-8 rounded-lg border border-gray-800">
+              <div className="bg-gray-900 p-8 rounded-lg border border-gray-800 transformation-card">
                 <div className="text-red-500 text-6xl mb-6">⚡</div>
                 <h3 className="text-3xl font-black mb-4">OPERATIONAL WARFARE</h3>
                 <p className="text-gray-300 mb-8 text-lg">
@@ -85,7 +85,7 @@ export default function Services() {
               </div>
               
               {/* Systems Innovation */}
-              <div className="bg-gray-900 p-8 rounded-lg border border-gray-800">
+              <div className="bg-gray-900 p-8 rounded-lg border border-gray-800 transformation-card">
                 <div className="text-red-500 text-6xl mb-6">🎯</div>
                 <h3 className="text-3xl font-black mb-4">SYSTEMS INNOVATION</h3>
                 <p className="text-gray-300 mb-8 text-lg">
@@ -121,7 +121,7 @@ export default function Services() {
               </div>
               
               {/* AI Transformation */}
-              <div className="bg-gray-900 p-8 rounded-lg border border-gray-800">
+              <div className="bg-gray-900 p-8 rounded-lg border border-gray-800 transformation-card">
                 <div className="text-red-500 text-6xl mb-6">🤖</div>
                 <h3 className="text-3xl font-black mb-4">AI TRANSFORMATION</h3>
                 <p className="text-gray-300 mb-8 text-lg">
@@ -157,7 +157,7 @@ export default function Services() {
               </div>
               
               {/* Financial Dominance */}
-              <div className="bg-gray-900 p-8 rounded-lg border border-gray-800">
+              <div className="bg-gray-900 p-8 rounded-lg border border-gray-800 transformation-card">
                 <div className="text-red-500 text-6xl mb-6">💰</div>
                 <h3 className="text-3xl font-black mb-4">FINANCIAL DOMINANCE</h3>
                 <p className="text-gray-300 mb-8 text-lg">
@@ -209,7 +209,7 @@ export default function Services() {
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {/* Strategic Assessment */}
-              <div className="bg-black p-8 rounded-lg border border-gray-800">
+              <div className="bg-black p-8 rounded-lg border border-gray-800 transformation-card">
                 <div className="text-red-500 text-3xl font-bold mb-4">STRATEGIC ASSESSMENT</div>
                 <div className="text-5xl font-black mb-4">$50K</div>
                 <div className="text-gray-400 mb-6">90-Day Deep Dive</div>
@@ -237,7 +237,7 @@ export default function Services() {
               </div>
               
               {/* Transformation Execution */}
-              <div className="bg-red-900 p-8 rounded-lg border-2 border-red-500 relative">
+              <div className="bg-red-900 p-8 rounded-lg border-2 border-red-500 relative transformation-card">
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-red-500 text-black px-6 py-2 rounded-full text-sm font-bold">
                   MOST POPULAR
                 </div>
@@ -268,7 +268,7 @@ export default function Services() {
               </div>
               
               {/* Enterprise Partnership */}
-              <div className="bg-black p-8 rounded-lg border border-gray-800">
+              <div className="bg-black p-8 rounded-lg border border-gray-800 transformation-card">
                 <div className="text-red-500 text-3xl font-bold mb-4">ENTERPRISE PARTNERSHIP</div>
                 <div className="text-5xl font-black mb-4">$500K+</div>
                 <div className="text-gray-400 mb-6">12-Month Partnership</div>
