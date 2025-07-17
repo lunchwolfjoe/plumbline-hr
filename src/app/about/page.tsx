@@ -1,211 +1,204 @@
-import Image from 'next/image';
+'use client';
 
-export default function AboutPage() {
+import Image from 'next/image';
+import ScrollReveal from '../components/ScrollReveal';
+
+export default function About() {
   return (
     <main className="min-h-screen">
-      {/* Hero Section with Parallax Effect */}
-      <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
+      <ScrollReveal />
+      
+      {/* Hero Section */}
+      <section className="relative py-20 bg-gray-900 text-white">
         <div className="absolute inset-0 z-0">
           <Image
             src="/images/hero-office.jpg"
-            alt="Modern office environment"
+            alt="Nick Plumb - Strategic Transformation Architect"
             fill
             className="object-cover"
-            priority
           />
-          <div className="absolute inset-0 bg-primary/80" />
+          <div className="absolute inset-0 bg-black/60" />
         </div>
         <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-3xl mx-auto text-center text-white">
-            <h1 className="text-5xl font-bold mb-6 leading-tight">
-              Transforming HR Through Innovation
+          <div className="max-w-4xl mx-auto text-center">
+            <h1 className="text-5xl md:text-6xl font-bold mb-6">
+              Meet Your Strategic Transformation Architect
             </h1>
-            <p className="text-xl mb-8">
-              Leveraging cutting-edge technology and industry expertise to revolutionize workforce management
+            <p className="text-xl mb-8 text-gray-300">
+              Military Veteran • Amazon Principal • Ops Problem Solver Extraordinaire
             </p>
-            <a
-              href="/contact"
-              className="inline-block bg-white text-primary px-8 py-3 rounded-md font-semibold hover:bg-white/90 transition-colors"
-            >
-              Partner With Us
-            </a>
           </div>
         </div>
       </section>
 
-      {/* Mission Section with Visual */}
-      <section className="py-20">
+      {/* About Nick */}
+      <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="relative h-[400px] rounded-lg overflow-hidden">
+            <div>
+              <h2 className="text-4xl font-bold mb-6">
+                I Don't Just Solve Problems - I Redesign Systems That Create Value
+              </h2>
+              <p className="text-lg mb-6 text-gray-700">
+                As the force behind PlumbLineHR, I bring battle-tested strategies from military operations and Amazon's high-stakes environment to crush your operational challenges and unlock massive value.
+              </p>
+              <p className="text-lg mb-6 text-gray-700">
+                From $100M+ cost optimizations to network-wide innovations that become industry standards - I fix any ops problem with a triple-threat approach that combines operational excellence, systems innovation, and financial optimization.
+              </p>
+              <div className="grid grid-cols-2 gap-6 mt-8">
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-primary">$100M+</div>
+                  <div className="text-gray-600">Cost Reduction Identified</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-primary">$9.3B</div>
+                  <div className="text-gray-600">Operational Spend Analyzed</div>
+                </div>
+              </div>
+            </div>
+            <div className="relative">
               <Image
-                src="/images/team-meeting.jpg"
-                alt="Team collaboration"
-                fill
-                className="object-cover"
+                src="/images/ceo.jpg"
+                alt="Nick Plumb"
+                width={500}
+                height={600}
+                className="rounded-lg shadow-lg"
               />
             </div>
-            <div>
-              <h2 className="text-3xl font-bold mb-6">Our Mission</h2>
-              <p className="text-gray-600 mb-6 text-lg leading-relaxed">
-                At PlumbLine HR, we're pioneering the future of human resources management through 
-                innovative technology solutions and data-driven insights. Our mission is to empower 
-                organizations to make strategic decisions about their most valuable asset - their people.
-              </p>
-              <p className="text-gray-600 text-lg leading-relaxed">
-                By combining advanced analytics, artificial intelligence, and human expertise, we're 
-                helping businesses optimize their workforce management processes and drive sustainable growth.
-              </p>
-            </div>
           </div>
         </div>
       </section>
 
-      {/* Values Section with Icons */}
+      {/* Background */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-12 text-center">Our Core Values</h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white p-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform">
-              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
-                <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold mb-4">Innovation</h3>
-              <p className="text-gray-600">
-                We push the boundaries of HR technology, developing solutions that anticipate and 
-                address future workforce challenges through cutting-edge innovation.
+          <h2 className="text-4xl font-bold mb-12 text-center">
+            My Battle-Tested Background
+          </h2>
+          <div className="grid md:grid-cols-2 gap-12">
+            <div className="bg-white p-8 rounded-lg shadow-lg">
+              <h3 className="text-2xl font-bold mb-4 text-primary">Military Operations</h3>
+              <p className="text-gray-700 mb-4">
+                My military background taught me how to make critical decisions under pressure, lead teams in high-stakes environments, and optimize systems for maximum efficiency and effectiveness.
               </p>
+              <ul className="space-y-2">
+                <li className="flex items-start">
+                  <span className="text-primary mr-2">•</span>
+                  <span className="text-gray-700">Strategic planning and execution</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-primary mr-2">•</span>
+                  <span className="text-gray-700">Team leadership under pressure</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-primary mr-2">•</span>
+                  <span className="text-gray-700">System optimization for mission success</span>
+                </li>
+              </ul>
             </div>
-            <div className="bg-white p-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform">
-              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
-                <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold mb-4">Excellence</h3>
-              <p className="text-gray-600">
-                We maintain uncompromising standards in our solutions, ensuring reliability, 
-                security, and exceptional user experience across all our services.
+            <div className="bg-white p-8 rounded-lg shadow-lg">
+              <h3 className="text-2xl font-bold mb-4 text-primary">Amazon Principal</h3>
+              <p className="text-gray-700 mb-4">
+                At Amazon, I led complex operational transformations, managed massive scale operations, and developed innovations that became network-wide standards.
               </p>
-            </div>
-            <div className="bg-white p-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform">
-              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
-                <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold mb-4">Partnership</h3>
-              <p className="text-gray-600">
-                We build lasting relationships with our clients, working collaboratively to 
-                achieve their strategic HR objectives and drive organizational success.
-              </p>
+              <ul className="space-y-2">
+                <li className="flex items-start">
+                  <span className="text-primary mr-2">•</span>
+                  <span className="text-gray-700">Led 3 complex Amazon launches</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-primary mr-2">•</span>
+                  <span className="text-gray-700">Created Central Dock innovation</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-primary mr-2">•</span>
+                  <span className="text-gray-700">Managed $9.3B operational spend</span>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Team Section with Profiles */}
-      <section className="py-20">
+      {/* Methodology */}
+      <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-12 text-center">Our Leadership Team</h2>
+          <h2 className="text-4xl font-bold mb-12 text-center">
+            My Strategic Transformation Methodology
+          </h2>
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="relative w-48 h-48 mx-auto mb-4 rounded-full overflow-hidden">
-                <Image
-                  src="/images/ceo.jpg"
-                  alt="CEO"
-                  fill
-                  className="object-cover"
-                />
+            {[
+              {
+                step: '01',
+                title: 'Assess & Analyze',
+                description: 'Comprehensive analysis of your operational challenges, identifying root causes and opportunities for transformation.'
+              },
+              {
+                step: '02',
+                title: 'Design & Strategize',
+                description: 'Develop strategic roadmap with battle-tested approaches tailored to your specific operational environment.'
+              },
+              {
+                step: '03',
+                title: 'Execute & Optimize',
+                description: 'Implement solutions with hands-on support, continuously optimizing for maximum impact and value creation.'
+              }
+            ].map((step, index) => (
+              <div key={index} className="text-center">
+                <div className="text-6xl font-bold text-primary mb-4">{step.step}</div>
+                <h3 className="text-2xl font-bold mb-4">{step.title}</h3>
+                <p className="text-gray-700">{step.description}</p>
               </div>
-              <h3 className="text-xl font-semibold">Dr. Sarah Chen</h3>
-              <p className="text-gray-500 mb-2">Chief Executive Officer</p>
-              <p className="text-gray-600">
-                PhD in Organizational Psychology, 15+ years in HR technology innovation
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="relative w-48 h-48 mx-auto mb-4 rounded-full overflow-hidden">
-                <Image
-                  src="/images/cto.jpg"
-                  alt="CTO"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <h3 className="text-xl font-semibold">Michael Rodriguez</h3>
-              <p className="text-gray-500 mb-2">Chief Technology Officer</p>
-              <p className="text-gray-600">
-                MS in Computer Science, AI/ML specialist with 12+ years in HR tech
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="relative w-48 h-48 mx-auto mb-4 rounded-full overflow-hidden">
-                <Image
-                  src="/images/cso.jpg"
-                  alt="CSO"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <h3 className="text-xl font-semibold">Dr. Emily Thompson</h3>
-              <p className="text-gray-500 mb-2">Chief Strategy Officer</p>
-              <p className="text-gray-600">
-                PhD in Business Strategy, 20+ years in HR consulting and transformation
-              </p>
-            </div>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* Impact Section with Stats */}
-      <section className="py-20 bg-gray-50">
+      {/* Values */}
+      <section className="py-20 bg-gray-900 text-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-12 text-center">Our Global Impact</h2>
+          <h2 className="text-4xl font-bold mb-12 text-center">
+            My Core Values
+          </h2>
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white p-8 rounded-lg shadow-lg text-center transform hover:scale-105 transition-transform">
-              <div className="text-5xl font-bold text-primary mb-2">500+</div>
-              <p className="text-gray-600 text-lg">Enterprise Clients</p>
-              <p className="text-gray-500 text-sm mt-2">Across 30+ countries</p>
-            </div>
-            <div className="bg-white p-8 rounded-lg shadow-lg text-center transform hover:scale-105 transition-transform">
-              <div className="text-5xl font-bold text-primary mb-2">50K+</div>
-              <p className="text-gray-600 text-lg">Employees Managed</p>
-              <p className="text-gray-500 text-sm mt-2">Through our platform</p>
-            </div>
-            <div className="bg-white p-8 rounded-lg shadow-lg text-center transform hover:scale-105 transition-transform">
-              <div className="text-5xl font-bold text-primary mb-2">40%</div>
-              <p className="text-gray-600 text-lg">Average Time Saved</p>
-              <p className="text-gray-500 text-sm mt-2">On HR operations</p>
-            </div>
+            {[
+              {
+                title: 'Excellence Under Fire',
+                description: 'Delivering exceptional results even in the most challenging operational environments.'
+              },
+              {
+                title: 'Innovation Through Experience',
+                description: 'Creating breakthrough solutions based on real-world experience and proven methodologies.'
+              },
+              {
+                title: 'Value-Driven Transformation',
+                description: 'Focusing on measurable outcomes that create lasting value for your organization.'
+              }
+            ].map((value, index) => (
+              <div key={index} className="bg-gray-800 p-8 rounded-lg text-center">
+                <h3 className="text-2xl font-bold mb-4">{value.title}</h3>
+                <p className="text-gray-300">{value.description}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* CTA Section with Background */}
-      <section className="py-20 relative">
-        <div className="absolute inset-0 z-0">
-          <Image
-            src="/images/cta-bg.jpg"
-            alt="Background"
-            fill
-            className="object-cover"
-          />
-          <div className="absolute inset-0 bg-primary/90" />
-        </div>
-        <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-3xl mx-auto text-center text-white">
-            <h2 className="text-3xl font-bold mb-8">Ready to Transform Your HR?</h2>
-            <p className="text-xl mb-8">
-              Join industry leaders who have already revolutionized their workforce management with PlumbLine HR.
+      {/* CTA Section */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-4xl font-bold mb-8">
+              Ready to Transform Your Operations?
+            </h2>
+            <p className="text-xl mb-8 text-gray-600">
+              Let's discuss how my battle-tested approach can solve your operational challenges and unlock massive value.
             </p>
             <a
               href="/contact"
-              className="inline-block bg-white text-primary px-8 py-3 rounded-md font-semibold hover:bg-white/90 transition-colors"
+              className="inline-block bg-primary hover-lift text-white px-8 py-4 rounded-md font-semibold hover:bg-primary/90 transition-colors text-lg"
             >
-              Schedule a Consultation
+              Schedule Your Strategic Assessment
             </a>
           </div>
         </div>
